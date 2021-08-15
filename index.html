@@ -10,7 +10,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body >
+<body>
 
 <nav class="navbar navbar-expand-md bg-dark navbar-dark">
     <a class="navbar-brand" id="brand" href="#brand">Mohammed Aghil Puthiyottil</a>
@@ -20,13 +20,13 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
+                <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Experience</a>
+                <a class="nav-link" href="#exp">Experience</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="#projects">Projects</a>
             </li>
         </ul>
     </div>
@@ -37,45 +37,80 @@
             <img src="images/mypic.jpeg" class="rounded-circle img-fluid" alt="No" width="500">
         </div>
         <div class="col-sm-8">
-            <h1 >About Me</h1>
-            <h4>I am a self-motivated polymath and I love coding!. Right from my childhood, I was very keen on technology and how it could be used to make our lives better. I love to use my skills to find optimal solutions for problems and make it efficient.</h4>
+            <h1>About Me</h1>
+            <h4>I am a self-motivated polymath and I love coding!. Right from my childhood, I was very keen on
+                technology and how it could be used to make our lives better. I love to use my skills to find optimal
+                solutions for problems and make it efficient.</h4>
             <h2>I am Currently Pursuing Masters(MS) in Computer Science at UNC Charlotte!</h2>
-            <h2>I am also working as a part-time Graduate Research Assistant at UNC Charlotte as I look to further hone my skills in the field of Software development and Machine Learning</h2>
-            <h2>By the Way, I'm #OPENTOWORK</h2>
+            <h2>I am also working as a part-time Graduate Research Assistant at UNC Charlotte as I look to further hone
+                my skills in the field of Software development and Machine Learning</h2>
+            <h2>By the Way, I'm <span style="text-decoration: underline; color: yellow">#OPENTOWORK</span></h2>
         </div>
     </div>
-
 
 
 </div>
 <div id="skills" class="container-fluid">
     <h1>My Skills</h1>
-    <h2><span class="badge badge-dark skills_icons">C</span><span class="badge badge-dark skills_icons">C++</span><span class="badge badge-dark skills_icons">Java</span><span class="badge badge-dark skills_icons">Python</span><span
-                class="badge badge-dark skills_icons">SQL</span><span class="badge badge-dark skills_icons">PHP</span></h2>
+    <h2><span class="badge badge-dark skills_icons">C</span><span class="badge badge-dark skills_icons">C++</span><span
+            class="badge badge-dark skills_icons">Java</span><span
+            class="badge badge-dark skills_icons">Python</span><span
+            class="badge badge-dark skills_icons">SQL</span>
+        <span class="badge badge-dark skills_icons">PHP</span>
+        <span class="badge badge-dark skills_icons">HTML</span>
+        <span class="badge badge-dark skills_icons">CSS</span>
+        <span class="badge badge-dark skills_icons">JavaScript</span>
+        <span class="badge badge-dark skills_icons">Node Js</span>
+        <span class="badge badge-dark skills_icons">Mongo DB</span>
+        <span class="badge badge-dark skills_icons">Express Js</span>
+        <span class="badge badge-dark skills_icons">React</span>
+        <span class="badge badge-dark skills_icons">Angular Js</span>
+        <span class="badge badge-dark skills_icons">Sci-Kit Learn</span>
+        <span class="badge badge-dark skills_icons">Pandas</span>
+        <span class="badge badge-dark skills_icons">Numpy</span>
+        <span class="badge badge-dark skills_icons">Seaborn</span>
+        <span class="badge badge-dark skills_icons">PyTorch</span>
+        <span class="badge badge-dark skills_icons">MatplotLib</span>
+        <span class="badge badge-dark skills_icons">Amazon Web Services</span>
+        <span class="badge badge-dark skills_icons">Google Firebase</span>
+    </h2>
 </div>
+
 <div id="exp" class="container-fluid">
     <h1>Experience</h1>
-    <div class="container-fluid card bg-info">
+    <div class="exp container-fluid card bg-info">
         <div class="row">
-            <div class="col-sm-6">
-                <h2>RockFlowers</h2>
+            <div class="col-sm-1">
+                <img class="img-fluid exp-logo" src="images/rockflowers_icon.PNG">
             </div>
-            <div class="col-sm-6">
-                <h4>Software Engineer</h4>
-                <h4>June 2017 - Dec 2020</h4>
-
+            <div class="col-sm-11">
+                <h2 class="exp-heading text-left">Software Engineer</h2>
+                <h2 class="text-left">RockFlowers</h2>
+                <h5 class="text-left">June 2017 - Dec 2020</h5>
+                <h5 class="exp-sub">Managed a Team of 15 people as the technical lead, Worked as a Full-Stack developer
+                    in web (MERN / LAMP Stack) and mobile application development, Worked on projects multiple
+                    programming methodologies including Agile (Scrum), TDD, was involved in all phases of development
+                    from initial concepts, through design, development, testing, and deployment.</h5>
             </div>
         </div>
     </div>
     <br>
-    <div class="container-fluid card bg-info">
+    <div class="exp container-fluid card bg-info">
         <div class="row">
-            <div class="col-sm-6">
-                <h2>UNC Charlotte</h2>
+            <div class="col-sm-1">
+                <img class="img-fluid exp-logo" src="images/uncc.jpg">
             </div>
-            <div class="col-sm-6">
-                <h4>Graduate Research Assistant</h4>
-                <h4>May 2021 - Present</h4>
+            <div class="col-sm-11">
+                <h2 class="exp-heading text-left">Graduate Research Assistant</h2>
+                <h2 class="text-left">UNC Charlotte</h2>
+                <h5 class="text-left">May 2021 - Present</h5>
+                <h5 class="exp-sub">Built the Machine learning pipeline in Python for Real-Time Edge Video Analytics for
+                    Multicamera Privacy-Aware Pedestrian Tracking (REVAMP2T). The Pipeline consists of
+                    EfficientHRNet(Trained on DUKEMTMC Dataset) to Extract features as Keypoints from Frames, PLROSNet
+                    to Encode the Extracted keypoints, DeepSort(Trained on MOT16 Dataset) for pedestrian
+                    Re-Identification and Finally Action Detection across multiple cameras. Gained Hands-on experience
+                    in working with machine learning libraries OpenCV, Pandas, Numpy, Matplotlib, Sci-Kit learn,
+                    SeaBorn, and Pytorch.</h5>
             </div>
         </div>
     </div>
